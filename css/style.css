@@ -18,15 +18,15 @@
     background: black;
     color: white;
     text-align: right;
-    width: 220px;
-    height: 70px;
+    width: 255px;
+    height: 75px;
     font-size: 60px;
     font-family: arial;
     
 }
 .botoes {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     font-size: 20px;
     cursor: pointer;
     color: white;
@@ -38,8 +38,8 @@
     background: rgb(107, 106, 106);
 }
 #botao0 {
-    width: 106px;
-    height: 50px;
+    width: 126px;
+    height: 60px;
     font-size: 25px;
     cursor: pointer;
     color: white;
@@ -57,8 +57,8 @@
     bottom: 16%;
    }
 .botoes-laranja {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     font-size: 25px;
     cursor: pointer;
     color: white;
@@ -73,8 +73,8 @@
 .botoes-cinza {
     background:rgb(173, 172, 172) ;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     font-size: 20px;
     cursor: pointer;
     margin: 3px;
