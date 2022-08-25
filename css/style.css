@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#background {
+    height: 100vh;
+    background:black ;
+}
+#calculator {
+    position: absolute;
+    background: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+}
+#resultado {
+    background: black;
+    color: white;
+    text-align: right;
+    width: 220px;
+    height: 70px;
+    font-size: 60px;
+    font-family: arial;
+    
+}
+.botoes {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    margin: 3px;
+    border-radius: 50%;
+    background: rgb(36, 35, 35);
+}
+.botoes:hover {
+    background: rgb(107, 106, 106);
+}
+#botao0 {
+    width: 106px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    margin: 3px;
+    border-radius: 50px;
+    background: rgb(36, 35, 35);
+    position: relative;
+   }
+   #botao0:hover {
+    background: rgb(107, 106, 106);
+   }
+   #zero {
+    position: absolute;
+    right: 70%;
+    bottom: 16%;
+   }
+.botoes-laranja {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    margin: 3px;
+    border-radius: 50%;
+    background: rgb(226, 126, 12);
+}
+.botoes-laranja:hover {
+    background: white;
+    color: rgb(226, 126, 12);
+}
+.botoes-cinza {
+    background:rgb(173, 172, 172) ;
+    color: black;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 3px;
+    border-radius: 50%;
+}
+.botoes-cinza:hover {
+    background: rgb(240, 239, 239);
+}
+h1 {
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow:2px 1px rgb(226, 126, 12);
+}
+@media screen and (max-width:600px) {
+    .botoes {
+        width: 70px;
+        height: 70px;
+    }
+    .botoes-laranja {
+        width: 70px;
+        height: 70px;
+    }
+    .botoes-cinza {
+        width: 70px;
+        height: 70px;
+    }
+    #botao0 {
+        width: 146px;
+        height: 70px;
+        font-size: 25px;
+        cursor: pointer;
+        color: white;
+        margin: 3px;
+        border-radius: 50px;
+        background: rgb(36, 35, 35);
+        position: relative;
+       }
+       #resultado {
+        width: 289px;
+        height: 74px;
+       }
+       #calculator {
+        padding: 0;
+       }
+}

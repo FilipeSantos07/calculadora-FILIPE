@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+  <div id="background">
+        <h1>By Filipe Santos</h1>
+    <div id="calculator">
+        <div id="resultado"></div>
+        <table>
+            <tr>
+                
+                    <td><button class="botoes-cinza" onclick="limpar()">AC</button></td>
+                    <td><button class="botoes-cinza" onclick="voltar()"><</button></td>
+                    <td><button class="botoes-cinza" onclick="inserir('%')">%</button></td>
+                    <td><button class="botoes-laranja" onclick="inserir('/')">/</button></td>
+                    
+            </tr>
+            <tr>
+                
+                    <td><button class="botoes" onclick="inserir(7)">7</button></td>
+                    <td><button class="botoes" onclick="inserir(8)">8</button></td>
+                    <td><button class="botoes" onclick="inserir(9)">9</button></td>
+                    <td><button class="botoes-laranja" onclick="inserir('*')">x</button></td>
+                
+            </tr>
+            <tr>
+                
+                    <td><button class="botoes" onclick="inserir(4)">4</button></td>
+                    <td><button class="botoes" onclick="inserir(5)">5</button></td>
+                    <td><button class="botoes" onclick="inserir(6)">6</button></td>
+                    <td><button class="botoes-laranja" onclick="inserir('-')">-</button></td>
+                
+            </tr>
+            <tr>
+                
+                    <td><button class="botoes" onclick="inserir(1)">1</button></td>
+                    <td><button class="botoes" onclick="inserir(2)">2</button></td>
+                    <td><button class="botoes" onclick="inserir(3)">3</button></td>
+                    <td><button class="botoes-laranja" onclick="inserir('+')">+</button></td>
+                
+            </tr>
+            <tr>
+                 
+                    <td colspan="2"><button id="botao0" onclick="inserir(0)"><div id="zero">0</div></button></td>
+                    <td><button class="botoes" onclick="inserir('.')">.</button></td>
+                    <td><button class="botoes-laranja" onclick="calcular()">=</button></td>
+                    
+                
+            </tr>
+        </table>
+       
+    </div>
+                 
+                 
+  </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
