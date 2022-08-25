@@ -1,15 +1,17 @@
 function limpar() {
-    document.querySelector("#resultado").innerHTML = "";
+    var resultado = document.querySelector("#resultado")
+    resultado.innerHTML = ""
+
 }
 function inserir(n){
-    var numero = document.querySelector("#resultado").innerHTML;
-    document.querySelector("#resultado").innerHTML = numero + n;
+    var resultado = document.querySelector("#resultado")
+    resultado.innerHTML += n;
 }
 function voltar() {
-    var resultado = document.querySelector("#resultado").innerHTML;
-    document.querySelector("#resultado").innerHTML = resultado.substring(0, resultado.length -1)
+    var resultado = document.querySelector("#resultado")
+    resultado.innerHTML = resultado.innerHTML.substring(0, resultado.innerHTML.length -1)
 }
 function calcular() {
-    var numero = document.querySelector("#resultado").innerHTML;
-    document.querySelector("#resultado").innerHTML = eval(numero);
+    var resultado = document.querySelector("#resultado")
+    resultado.innerHTML = eval(resultado.innerHTML);
 }
