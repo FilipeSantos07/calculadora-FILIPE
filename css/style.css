@@ -33,6 +33,7 @@
     margin: 3px;
     border-radius: 50%;
     background: rgb(36, 35, 35);
+    border: none;
 }
 .botoes:hover {
     background: rgb(107, 106, 106);
@@ -47,6 +48,7 @@
     border-radius: 50px;
     background: rgb(36, 35, 35);
     position: relative;
+    border: none;
    }
    #botao0:hover {
     background: rgb(107, 106, 106);
@@ -65,6 +67,7 @@
     margin: 3px;
     border-radius: 50%;
     background: rgb(226, 126, 12);
+    border: none;
 }
 .botoes-laranja:hover {
     background: white;
@@ -79,6 +82,7 @@
     cursor: pointer;
     margin: 3px;
     border-radius: 50%;
+    border: none;
 }
 .botoes-cinza:hover {
     background: rgb(240, 239, 239);
@@ -95,14 +99,17 @@ h1 {
     .botoes {
         width: 70px;
         height: 70px;
+        border: none;
     }
     .botoes-laranja {
         width: 70px;
         height: 70px;
+        border: none;
     }
     .botoes-cinza {
         width: 70px;
         height: 70px;
+        border: none;
     }
     #botao0 {
         width: 146px;
@@ -114,6 +121,7 @@ h1 {
         border-radius: 50px;
         background: rgb(36, 35, 35);
         position: relative;
+        border: none;
        }
        #resultado {
         width: 289px;
