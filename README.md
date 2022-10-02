@@ -17,4 +17,4 @@ Ficou bem parecido, gostei muito do resultado! Basicamente ela faz as mesmas fun
 
 ## 💛 Contato
 
-outerspaceguy@live.co.uk
+FilipeSantosEstudos1@gmail.com
